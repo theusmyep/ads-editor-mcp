@@ -1,9 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "name": "br.com.adseditor/mcp",
-  "description": "Remote MCP server for Ads Editor: 212 tools to run Meta Ads and Google Ads from Claude, ChatGPT, Codex and Cursor. Reads and writes: campaigns, cross-account clones, audiences, rules, reports.",
+  "description": "Ads Editor MCP: 212 tools to run Meta Ads and Google Ads from Claude, ChatGPT, Codex and Cursor.",
   "version": "1.0.0",
   "websiteUrl": "https://adseditor.com.br/mcp",
-  "repository": { "url": "https://github.com/theusmyep/ads-editor-mcp", "source": "github" },
-  "remotes": [ { "type": "streamable-http", "url": "https://app.adseditor.com.br/mcp" } ]
+  "repository": {
+    "url": "https://github.com/theusmyep/ads-editor-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.adseditor.com.br/mcp"
+    }
+  ]
 }
