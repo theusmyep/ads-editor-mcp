@@ -2,7 +2,7 @@
 
 Servidor MCP (Model Context Protocol) do **Ads Editor**, plataforma independente de gestão de Meta Ads e Google Ads para gestores de tráfego e agências. Com ele, o Claude, o ChatGPT, o Codex e o Cursor consultam e executam ações nas suas contas de anúncio: listar campanhas, criar conjuntos, clonar entre contas, ajustar orçamento, criar regras, ler relatórios e vendas.
 
-O Ads Editor não é o Google Ads Editor nem um produto da Meta ou do Google. Este repositório contém apenas a documentação; o servidor é remoto e roda em app.adseditor.com.br.
+O Ads Editor não é o Google Ads Editor nem um produto da Meta ou do Google. Este repositório contém apenas documentação, identidade visual e configuração de conexão para clientes MCP. O servidor é remoto e roda exclusivamente na infraestrutura do Ads Editor.
 
 - Site: https://adseditor.com.br
 - Catálogo das ferramentas e tela de conexão: https://adseditor.com.br/mcp
@@ -52,6 +52,13 @@ url = "https://app.adseditor.com.br/mcp"
 ```
 
 ### Cursor
+
+Este repositório inclui o pacote de conexão para o Cursor. Instalar o plugin conecta o cliente ao serviço remoto; **não instala um servidor local**.
+
+- É necessário ter uma conta no Ads Editor com acesso ao MCP, conforme o plano e as permissões da conta.
+- Ao conectar, conclua o login e a autorização OAuth no domínio `app.adseditor.com.br`. O Cursor recebe uma autorização individual; o pacote não inclui tokens.
+- Cada usuário continua limitado às contas e funções que pode acessar no Ads Editor. A instalação do plugin não concede permissões adicionais.
+- Para conexão manual, use a configuração abaixo. Após salvar, abra as configurações de MCP do Cursor e conclua a autenticação quando solicitado.
 
 Em `.cursor/mcp.json` (projeto) ou `~/.cursor/mcp.json` (global):
 
@@ -136,3 +143,13 @@ Ads Editor is not Google Ads Editor and not a Meta or Google product.
 **Pricing:** from R$ 97/month (10 ad accounts) to R$ 697/month (70 ad accounts), 20% off yearly, 7-day trial. Interface in Portuguese (Brazil).
 
 Tool catalog: https://adseditor.com.br/mcp. Guides: https://adseditor.com.br/blog.
+
+## Conteúdo deste pacote
+
+- `mcp.json`: endereço HTTPS do serviço remoto, sem credenciais.
+- `.cursor-plugin/plugin.json`: identificação do plugin para o Cursor.
+- `assets/logo.svg`: ícone público do Ads Editor.
+- `server.json`: metadados para diretórios MCP.
+- `README.md`: instruções de conexão.
+
+O código-fonte do servidor, implementações de ferramentas, regras de negócio, banco de dados e credenciais **não são distribuídos neste repositório**. Baixar estes arquivos não permite executar uma cópia do servidor Ads Editor. A disponibilidade pública deste pacote de conexão não concede acesso ao serviço nem licença sobre o código privado ou a marca.
