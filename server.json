@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "name": "br.com.adseditor/mcp",
-  "description": "Ads Editor MCP: 212 tools to run Meta Ads and Google Ads from Claude, ChatGPT, Codex and Cursor.",
+  "description": "Connect Meta Ads and Google Ads to AI through Ads Editor. Requires an authorized account.",
   "version": "1.0.0",
   "websiteUrl": "https://adseditor.com.br/mcp",
   "repository": {

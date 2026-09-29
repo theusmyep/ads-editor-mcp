@@ -7,7 +7,6 @@ O Ads Editor não é o Google Ads Editor nem um produto da Meta ou do Google. Es
 - Site: https://adseditor.com.br
 - Catálogo das ferramentas e tela de conexão: https://adseditor.com.br/mcp
 - Blog com guias: https://adseditor.com.br/blog
-- Contagem atual: **212 ferramentas** (registro conferido em 23/09/2026)
 
 ## O que é
 
@@ -74,37 +73,11 @@ Em `.cursor/mcp.json` (projeto) ou `~/.cursor/mcp.json` (global):
 
 Se a tela do Ads Editor entregar um token pessoal em vez de OAuth, acrescente `"headers": { "Authorization": "Bearer <token>" }` dentro de `adseditor`.
 
-## Grupos de ferramentas (212 no total)
+## Capacidades disponíveis
 
-| Grupo | Ferramentas | O que faz |
-|---|---|---|
-| Meta: contas | 8 | Listar contas, páginas, pixels e ativos ligados |
-| Meta: campanhas | 14 | Listar, criar, editar, pausar, ativar, clonar entre contas |
-| Meta: conjuntos de anúncios | 10 | Segmentação, orçamento, posicionamento, clone |
-| Meta: anúncios | 20 | Criar, editar, subir mídia, textos, UTM, pausar |
-| Meta: formulários de lead | 5 | Listar e reaproveitar formulários |
-| Meta: públicos | 10 | Criar públicos em massa, lookalike, listar |
-| Meta: páginas | 7 | Página, Instagram e WhatsApp ligados à conta |
-| Meta: lote | 3 | Operações em massa em várias contas |
-| Meta: dispositivos | 2 | Segmentação por dispositivo |
-| Meta: localizações | 3 | Busca de cidade, região e raio |
-| Google: contas | 6 | Listar contas e MCC |
-| Google: campanhas | 23 | Pesquisa, Performance Max, orçamento, UTM, status |
-| Google: grupos de anúncios | 16 | Grupos, anúncios responsivos, ajustes |
-| Google: palavras-chave | 9 | Adicionar, negativar, listar |
-| Google: demografia | 2 | Ajustes por idade e gênero |
-| Google: extensões | 7 | Sitelinks, frases de destaque e outros recursos |
-| Google: conversões | 5 | Ações de conversão |
-| Google: escala | 11 | Tetos, escala e pacing de orçamento |
-| Relatórios | 12 | Métricas por período, relatório em link para o cliente |
-| Regras | 8 | Criar, listar e editar regras automatizadas |
-| Escala de orçamento (Meta) | 10 | Escala automática e histórico |
-| Monitor | 7 | Saldo e estado das contas |
-| Alertas | 10 | Alertas de métrica e de conta |
-| Vendas | 2 | Vendas por UTM (webhooks das plataformas) |
-| Plataforma | 2 | Estado da conexão e do plano |
+Conforme o plano e as permissões da conta, o serviço permite trabalhar com campanhas Meta Ads e Google Ads, públicos, orçamentos, regras, alertas, relatórios e atribuição de vendas.
 
-A lista com o nome de cada ferramenta fica em https://adseditor.com.br/mcp.
+O catálogo efetivo é apresentado ao cliente de IA após a autenticação. Este pacote não distribui implementações, esquemas ou documentação de operações administrativas internas.
 
 ## Exemplos de prompt
 
@@ -132,7 +105,7 @@ Planos de R$ 97 por mês (10 contas) a R$ 697 por mês (70 contas), 20% de desco
 
 ## English
 
-**Ads Editor MCP** is a remote MCP server (Streamable HTTP) for [Ads Editor](https://adseditor.com.br), an independent Meta Ads and Google Ads management platform for media buyers and agencies. It exposes 212 tools (count taken from the tool registry on 2026-09-23) so Claude, ChatGPT, Codex and Cursor can read and write to your ad accounts: list and create campaigns, clone campaigns between accounts while swapping Page, Instagram, pixel and WhatsApp, create audiences in bulk, adjust budgets, create automated rules, read reports and UTM-attributed sales, and manage Google Ads (Search, Performance Max, negative keywords).
+**Ads Editor MCP** is a remote MCP server (Streamable HTTP) for [Ads Editor](https://adseditor.com.br), an independent Meta Ads and Google Ads management platform for media buyers and agencies. It lets Claude, ChatGPT, Codex and Cursor can read and write to your ad accounts: list and create campaigns, clone campaigns between accounts while swapping Page, Instagram, pixel and WhatsApp, create audiences in bulk, adjust budgets, create automated rules, read reports and UTM-attributed sales, and manage Google Ads (Search, Performance Max, negative keywords).
 
 Ads Editor is not Google Ads Editor and not a Meta or Google product.
 
@@ -142,7 +115,7 @@ Ads Editor is not Google Ads Editor and not a Meta or Google product.
 
 **Pricing:** from R$ 97/month (10 ad accounts) to R$ 697/month (70 ad accounts), 20% off yearly, 7-day trial. Interface in Portuguese (Brazil).
 
-Tool catalog: https://adseditor.com.br/mcp. Guides: https://adseditor.com.br/blog.
+Connection guide: https://adseditor.com.br/mcp. Guides: https://adseditor.com.br/blog.
 
 ## Conteúdo deste pacote
 
