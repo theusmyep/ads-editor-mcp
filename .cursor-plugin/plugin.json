@@ -1,0 +1,19 @@
+{
+  "name": "ads-editor",
+  "version": "1.0.0",
+  "description": "Connect Cursor to Ads Editor to manage Meta Ads and Google Ads. Requires an Ads Editor account with MCP access. Hosted service; server source code is not included.",
+  "author": {
+    "name": "Ads Editor"
+  },
+  "homepage": "https://adseditor.com.br/mcp",
+  "repository": "https://github.com/theusmyep/ads-editor-mcp",
+  "keywords": [
+    "ads-editor",
+    "meta-ads",
+    "google-ads",
+    "advertising",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "mcp.json"
+}
