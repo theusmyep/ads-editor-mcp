@@ -105,7 +105,7 @@ Planos de R$ 97 por mês (10 contas) a R$ 697 por mês (70 contas), 20% de desco
 
 ## English
 
-**Ads Editor MCP** is a remote MCP server (Streamable HTTP) for [Ads Editor](https://adseditor.com.br), an independent Meta Ads and Google Ads management platform for media buyers and agencies. It lets Claude, ChatGPT, Codex and Cursor can read and write to your ad accounts: list and create campaigns, clone campaigns between accounts while swapping Page, Instagram, pixel and WhatsApp, create audiences in bulk, adjust budgets, create automated rules, read reports and UTM-attributed sales, and manage Google Ads (Search, Performance Max, negative keywords).
+**Ads Editor MCP** is a remote MCP server (Streamable HTTP) for [Ads Editor](https://adseditor.com.br), an independent Meta Ads and Google Ads management platform for media buyers and agencies. It lets Claude, ChatGPT, Codex and Cursor read and write to your ad accounts: list and create campaigns, clone campaigns between accounts while swapping Page, Instagram, pixel and WhatsApp, create audiences in bulk, adjust budgets, create automated rules, read reports and UTM-attributed sales, and manage Google Ads (Search, Performance Max, negative keywords).
 
 Ads Editor is not Google Ads Editor and not a Meta or Google product.
 
