@@ -1,6 +1,6 @@
 # Ads Editor MCP: Meta Ads MCP and Google Ads MCP server
 
-**Ads Editor MCP** is a remote [Model Context Protocol](https://modelcontextprotocol.io) server that connects **Meta Ads (Facebook and Instagram Ads)** and **Google Ads** to AI assistants such as **Claude, ChatGPT, Cursor, Codex, Grok, Gemini CLI, Windsurf and VS Code**. It has **more than 250 tools** to read *and* run ad accounts in plain language: report on spend and results, clone campaigns between ad accounts, create audiences in bulk, adjust budgets, add negative keywords, set automated rules and follow ad account balances.
+**Ads Editor MCP** is a remote [Model Context Protocol](https://modelcontextprotocol.io) server that connects **Meta Ads (Facebook and Instagram Ads)** and **Google Ads** to AI assistants such as **Claude, ChatGPT, Cursor, Codex, Grok, Gemini CLI, Windsurf and VS Code**. It has **more than 350 tools** to read *and* run ad accounts in plain language: report on spend and results, clone campaigns between ad accounts, create audiences in bulk, adjust budgets, add negative keywords, set automated rules and follow ad account balances.
 
 | | |
 |---|---|
@@ -168,7 +168,7 @@ For stdio-only clients, use the `mcp-remote` bridge (requires Node.js):
 
 ## Tool categories
 
-More than 250 tools, grouped the same way as the public catalog. Read tools only query data; action tools change something in the account. The exact list a user sees depends on the plan and on team permissions, and the up-to-date catalog with every tool name is at [adseditor.app/mcp](https://adseditor.app/mcp).
+More than 350 tools, grouped the same way as the public catalog. Read tools only query data; action tools change something in the account. The exact list a user sees depends on the plan and on team permissions, and the up-to-date catalog with every tool name is at [adseditor.app/mcp](https://adseditor.app/mcp).
 
 **Meta Ads (Facebook and Instagram)**
 
@@ -275,7 +275,7 @@ Open-source examples that use the Meta Marketing API directly:
 
 ## Português
 
-O **Ads Editor MCP** é um servidor remoto de [Model Context Protocol](https://modelcontextprotocol.io) que liga **Meta Ads** e **Google Ads** a assistentes de IA como **Claude, ChatGPT, Cursor, Codex, Grok, Gemini CLI, Windsurf e VS Code**. São **mais de 250 ferramentas** para consultar e operar contas de anúncio por conversa: relatórios de gasto e resultado, clone de campanha entre contas, públicos em massa, orçamento, palavras-chave negativas, regras automatizadas e saldo das contas.
+O **Ads Editor MCP** é um servidor remoto de [Model Context Protocol](https://modelcontextprotocol.io) que liga **Meta Ads** e **Google Ads** a assistentes de IA como **Claude, ChatGPT, Cursor, Codex, Grok, Gemini CLI, Windsurf e VS Code**. São **mais de 350 ferramentas** para consultar e operar contas de anúncio por conversa: relatórios de gasto e resultado, clone de campanha entre contas, públicos em massa, orçamento, palavras-chave negativas, regras automatizadas e saldo das contas.
 
 O Ads Editor é uma plataforma independente para gestores de tráfego e agências. Não é o Google Ads Editor nem produto da Meta ou do Google.
 
